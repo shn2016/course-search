@@ -1,68 +1,73 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Course-Search
 
-## Available Scripts
+This project is the solution for front-end code test of [udacity](https://github.com/udacity/cn-interview/blob/master/front-end-position.md).
 
-In the project directory, you can run:
+## Skills
 
-### `npm start`
+1. React.js, React Router, React Rudux,
+2. Axios,
+3. Javascript ES6, HTML5 and CSS,
+4. Enzyme,
+5. bootstrap or material UI,
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Time Spent
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+start: 8:00 pm, 5 May 2019
+time: 26mins
 
-### `npm test`
+## To-dos
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Implement UI and draft components, states and actions,
+2. search courses(need to modify the api first or doing this at frontend),
+3. filter by types and difficulties,
+4. persistence while refreshing page,
+5. pagination(need to modify the api firstor or doing this at frontend),
+6. testing
 
-### `npm run build`
+## Implemented
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Sample page
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+![image](https://cloud.githubusercontent.com/assets/914595/24827854/437d0a5e-1c95-11e7-92c0-830301e2b572.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Design
 
-### `npm run eject`
+Based on the sample, this page can be divided into these components:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Sidebar,
+   1. Page Title
+   2. Type
+   3. Difficulty
+2. Content
+   1. Search
+   2. Banner (the blue information)
+   3. Courses
+      1. Course (image, title, difficulty, introduction)
+      2. Pagination (number, size)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+And the state and relative actions are:
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+|#|Component|state|action|
+|----|----|----|----|
+|1.2|Type|selectedType| onSelect|
+|1.3|Difficulty|selectedDifficulty| onSelect|
+|2.1|Search|inputTitle| onChange, onClick|
+|2.3|Courses|courses| |
+|2.3.1|Course|image, title, difficulty, introduction, numberOfProjects ||
+|2.3.2|Pagination|number, size| onNumberChange, onSizeChange |
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## About Me
 
-### Code Splitting
+checkout my github user page [here](https://shn2016.github.io/)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```javascript
+const kai = {
+  name: "Kai GAO",
+  email: "kaigaoinau@gmail.com",
+  profession: "Junior Web Developer",
+  location: "Melbourne, VIC, Australia",
+}
+```
