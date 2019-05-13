@@ -5,7 +5,7 @@
  */
 
 'use strict'
-const { port=3333, delay=0 } = require('minimist')(process.argv)
+const { port=3333 } = require('minimist')(process.argv)
 
 const app = require('./app')
 

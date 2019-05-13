@@ -10,10 +10,13 @@ This project is the solution for front-end code test of [udacity](https://github
 4. Enzyme,
 5. bootstrap or material UI,
 
-## Time Spent
+## Time Spent and log
 
 start: 8:00 pm, 5 May 2019
-time: 26mins
+|#| time | hours | comments|
+|----|----|----|----|
+|1| 8:30pm, 5/5/2019| 0.5 | setup server, design |
+|2| 11:12pm, 13/5/2019| 2 | initial components and ui, modify backend|
 
 ## To-dos
 
@@ -55,9 +58,6 @@ And the state and relative actions are:
 |2.3|Courses|courses| |
 |2.3.1|Course|image, title, difficulty, introduction, numberOfProjects ||
 |2.3.2|Pagination|number, size| onNumberChange, onSizeChange |
-
-
-
 
 ## About Me
 

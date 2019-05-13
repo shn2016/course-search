@@ -1,0 +1,75 @@
+{
+  "affiliates": [{
+      "image": "https://s3.cn-north-1.amazonaws.com.cn/static-assets/logo-color-georgiatech.svg",
+      "key": "gt",
+      "name": "佐治亚理工学院"
+  }],
+  "apply_required": false,
+  "available": true,
+  "banner_image": "",
+  "capped": false,
+  "enables_profiles": false,
+  "expected_duration": 0,
+  "expected_duration_high": 0,
+  "expected_duration_low": 0,
+  "expected_duration_unit": "",
+  "expected_learning": "<p>In this OMS Orientation, we cover several things you will need to know to be a successful OMS student.</p>\n\n<p>Things we cover:<br>\n- How you’ll register for classes.<br>\n- Various tools you’ll use during your Masters education for submitting assignments, participating in forum discussions, and interacting with your professors and peers.<br>\n- Tips and secrets to success in the OMS.</p>\n",
+  "faq": "",
+  "featured": false,
+  "features": null,
+  "full_course_available": false,
+  "graduate_groups": [],
+  "hero_video": "",
+  "hero_video_poster": "",
+  "hero_video_id": "",
+  "hiring_affiliates": null,
+  "image": "https://s3.cn-north-1.amazonaws.com.cn/static-assets/gt101_image.png",
+  "instructors": [{
+      "bio": "<p>David Joyner 在佐治亚理工学院完成了其以人为中心的计算专业博士学位，擅长于在探索性的学习环境中为学生提供自动反馈和评估。他加入优达学城后主要从事按学生的能力和学习进度设计练习、课题和（将有一天！）整个课程。</p>\n",
+      "image": "https://s3.cn-north-1.amazonaws.com.cn/static-assets/david-joyner.jpg",
+      "key": "david-joyner",
+      "name": "David Joyner",
+      "title": "佐治亚理工学院博士，优达学城课程策划"
+  }],
+  "key": "gt101",
+  "level": "初级",
+  "new_release": false,
+  "open_for_enrollment": false,
+  "order": 159,
+  "public_listing": true,
+  "program_syllabus": {
+      "detail_pdf_url": "",
+      "lessons": null,
+      "syllabus_prep": "",
+      "syllabus_prereq": "",
+      "projects": null,
+      "related_courses": null
+  },
+  "projects": [],
+  "related_degree_keys": [],
+  "required_knowledge": "",
+  "selling_points": {
+      "images_url": null,
+      "selling_keys": null
+  },
+  "short_summary": "In this OMS Orientation, we cover several things you will need to know to be a successful OMS student.",
+  "slug": "omscs-student-orientation--gt101",
+  "starter": false,
+  "student_groups": [],
+  "subtitle": "",
+  "summary": "<p>This is an OMSCS orientation course for all Georgia Tech OMS students.</p>\n",
+  "syllabus": "<h3>Welcome</h3>\n\n<p>Welcome messages from Dr. David Joyner and Eboni Bell</p>\n\n<h3>Oscar &amp; Registration</h3>\n\n<p>Accessing Oscar, Time Tickets &amp; holds, Classing (finding, adding, dropping) waitlists, and grades</p>\n\n<h3>T-square</h3>\n\n<p>Accessing T-square, settings and tools, assessments (assignments, quizzes and tests) and grade book, and links (Piazza and Udacity)</p>\n\n<h3>Udacity</h3>\n\n<p>Accessing course materials, courses, form exercises, and programming exercises</p>\n\n<h3>Piazza</h3>\n\n<p>Getting started, profile, reading lists and topics, navigation, and posting</p>\n\n<h3>Other tools</h3>\n\n<p>Passport, ProctorTrack, Google+, Peer Feedback, Webex, and other resources</p>\n\n<h3>Tips</h3>\n\n<p>Courses, community, and welcome!</p>\n",
+  "tags": [],
+  "teaser_video": {
+      "transcodings": {
+          "480p_1000kbps_mp4": {},
+          "480p_mp4": {},
+          "480p_ogg": {},
+          "720p_mp4": {}
+      }
+  },
+  "title": "OMSCS Student Orientation",
+  "tracks": [],
+  "why_nd_summary": "",
+  "why_nd_data": ""
+}
