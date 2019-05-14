@@ -1,11 +1,14 @@
 import React from 'react';
 
-const Course = (course) => {
+const Course = ({course}) => {
   const { image, title, level, summary, short_summary, projectQuantity } = course;
   return (
     <div className="course">
       <div className="image">
-        <image ref={image}/>
+        <img 
+          src={image}
+          alt={title}
+        />
       </div>
       <div className="course-content">
         <div className="course-header">

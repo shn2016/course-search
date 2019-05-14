@@ -1,16 +1,14 @@
 import React from 'react';
 import './App.css';
-import getCourses from './services/getCourses';
 import Content from './components/Content';
 import Sidebar from './components/Sidebar';
+import { fetchCourses } from './actions';
+import { connect } from "react-redux";
 
 class App extends React.Component {
 
   componentDidMount() {
-    getCourses()
-      .then(res => {
-        console.log(res);
-      })
+    this.props.dispatch(fetchCourses());
   }
   
   render() {
@@ -23,4 +21,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default connect()(App);

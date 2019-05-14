@@ -24,7 +24,7 @@ module.exports = () => {
     res.json(courses.filter(c => level ? level === c.level : true)
       .filter(c => track ? !!~c.tracks.indexOf(track) : true)
       .filter(c => title ? c.title.includes(title) : true)
-      )
+    )
   })
 
   return router

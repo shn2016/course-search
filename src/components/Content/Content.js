@@ -3,7 +3,7 @@ import Search from '../Search';
 import Courses from '../Courses';
 import Pagination from '../Pagination';
 
-const Content = ({courses=[], pagination={}}) => (
+const Content = () => (
   <div className="content">
     <Search />
     <div className="banner">
@@ -12,12 +12,8 @@ const Content = ({courses=[], pagination={}}) => (
         Study the Nanodegree projects and courses from Google, Amazon, Facebook and world-leading technology companies, learn Artificial Intellegence, Machine Learning from scratch.
       </p>
     </div>
-    <Courses
-      courses={courses}
-    />
-    <Pagination 
-      pagination={pagination}
-    />
+    <Courses/>
+    <Pagination/>
   </div>
 );
 

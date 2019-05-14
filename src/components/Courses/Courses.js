@@ -1,12 +1,17 @@
 import React from 'react';
 import Course from '../Course';
 
-const Courses = ({courses=[]}) => (
-  courses.map(course => (
-    <Course 
-      course={course}
-    />
-  ))
-);
-
-export default Courses;
+export default ({courses}) => (
+  (courses.results.length === 0) 
+    ?
+    (<div> sorry there is no courses found</div>)
+    :
+    (
+      courses.results.map(course => (
+        <Course 
+          course={course}
+          key={courses.results.indexOf(course)}
+        />
+      ))
+    )
+);;

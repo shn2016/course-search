@@ -18,19 +18,21 @@ const Difficulties = [
   '高级',
 ];
 
-const Sidebar = ({selectedCategory, selectedDifficulty}) => (
+const Sidebar = ({selectedCategory, selectedDifficulty, onCategoryChange, onDifficultyChange}) => (
   <div className="sidebar">
     <h2>Free Course and Nanodegree Program</h2>
     <Filter
       name='Category'
       list={categories}
       selected={selectedCategory}
+      onSelect={onCategoryChange}
     />
     <hr/>
     <Filter
       name='Difficulty'
       list={Difficulties}
       selected={selectedDifficulty}
+      onSelect={onDifficultyChange}
     />
   </div>
 );

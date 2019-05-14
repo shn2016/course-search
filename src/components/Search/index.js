@@ -1,3 +1,15 @@
 import Search from './Search';
+import { connect } from 'react-redux';
+import { onSearchSubmit } from '../../actions';
 
-export default Search;
+
+const mapDispatchToProps = dispatch => ({
+  onSubmit(value) {
+    dispatch(
+      onSearchSubmit(value)
+    )
+  }
+})
+
+
+export default connect(null, mapDispatchToProps)(Search);

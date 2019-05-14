@@ -1,28 +1,57 @@
 import React from 'react';
-import TextField from '@material-ui/core/TextField';
+import IconButton from '@material-ui/core/IconButton';
+import SearchIcon from '@material-ui/icons/Search';
+import Paper from '@material-ui/core/Paper';
+import InputBase from '@material-ui/core/InputBase';
+import './Search.css';
 
-const Search = ({value=''}) => (
-  <form 
-    noValidate 
-    autoComplete="off"
-    onSubmit= {() => {
-      this.event.preventDefault();
-      console.log(`${value} submited`)
-    }}
-  >  
-    <TextField
-      id="outlined-full-width"
-      label="Search"
-      style={{ margin: 8 }}
-      placeholder="search interested courses"
-      fullWidth
-      margin="normal"
-      variant="outlined"
-      InputLabelProps={{
-        shrink: true,
-      }}
-    />
-  </form>
-);
+class Search extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: "",
+    }
+  }
 
+  handleChange = (event) => {
+    this.setState({
+      value: event.target.value,
+    })
+  }
+
+  render() {
+    const { value } = this.state;
+    const { onSubmit } = this.props;
+    return (
+      <Paper  
+        className="search" 
+        elevation={1}
+      >
+        <form 
+          noValidate 
+          autoComplete="off"
+          onSubmit= {(event) => {
+            event.preventDefault();
+            onSubmit(value)
+          }}
+        >
+          <InputBase  
+            className="search-input" 
+            placeholder="Search Courses" 
+            value={value}
+            onChange={this.handleChange}
+          />
+          <IconButton 
+            className="search-icon" 
+            aria-label="Search"
+            type="submit"
+            value="Submit"
+          >
+            <SearchIcon />
+          </IconButton>
+        </form>
+      </Paper>
+    )
+  }
+}
 export default Search;

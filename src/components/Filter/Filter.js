@@ -3,7 +3,7 @@ import './Filter.css';
 
 
 
-const Filter = ({name, selected, list}) => (
+const Filter = ({name, selected, list, onSelect}) => (
   <div className="filter">
     <div className="filter-title">{name}</div>
     <div>
@@ -12,14 +12,16 @@ const Filter = ({name, selected, list}) => (
         <div 
           className={`type ${type===selected ? 'selected' : ''}`}
           key={type}
+          onClick={() => onSelect(type)}
         >
           {type}
         </div>
       ))
     }
-    <div 
+        <div 
           className={`type ${!selected ? 'selected' : ""}`}
           key="all"
+          onClick={() => onSelect(null)}
         >
           {"All"}
         </div>

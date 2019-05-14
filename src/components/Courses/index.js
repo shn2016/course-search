@@ -1,3 +1,9 @@
 import Courses from './Courses';
+import { connect } from 'react-redux'
 
-export default Courses;
+const mapStateToProps = (state, props) => ({
+	courses: state.courses,
+})
+
+
+export default connect(mapStateToProps, null)(Courses);
