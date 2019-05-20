@@ -13,11 +13,13 @@ This project is the solution for front-end code test of [udacity](https://github
 ## Time Spent and log
 
 start: 8:00 pm, 5 May 2019
+
 |#| time | hours | comments|
-|----:|----:|----:|----:|
+|----|----|----|----|
 |1| 8:30pm, 5/5/2019| 0.5 | setup server, design |
 |2| 11:12pm, 13/5/2019| 2 | initial components and ui, modify backend|
-|2| 1:35am, 15/5/2019| 5 | apply redux, and implement filter, search and pagination |
+|3| 1:35am, 15/5/2019| 5 | apply redux, and implement filter, search and pagination |
+|4| 0:15am, 19/5/2019| 2 | working on ui |
 
 ## To-dos
 

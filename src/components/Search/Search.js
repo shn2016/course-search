@@ -3,7 +3,7 @@ import IconButton from '@material-ui/core/IconButton';
 import SearchIcon from '@material-ui/icons/Search';
 import Paper from '@material-ui/core/Paper';
 import InputBase from '@material-ui/core/InputBase';
-import './Search.css';
+import './Search.scss';
 
 class Search extends React.Component {
   constructor(props) {

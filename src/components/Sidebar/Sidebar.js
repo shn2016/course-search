@@ -1,9 +1,8 @@
 import React from 'react';
 import Filter from '../Filter';
-import './Sidebar.css';
+import './Sidebar.scss';
 
 const categories = [
-  '数据科学',
   'Android',
   '网站开发',
   '软件工程',

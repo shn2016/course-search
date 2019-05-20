@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Content from './components/Content';
 import Sidebar from './components/Sidebar';
 import { fetchCourses } from './actions';

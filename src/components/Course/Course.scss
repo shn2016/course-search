@@ -1,0 +1,54 @@
+.course {
+  display: flex;
+  margin: 2rem 0;
+  background: #fff;
+}
+
+.course-image-wrapper {
+  margin: 2rem;
+
+  img {
+    width: 25vw;
+  }
+}
+
+.course-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem ;
+  margin-right: 1rem;
+  div {
+    &:first-child {
+      color: #01B3E3;
+      font-size: 1.15rem;
+    }
+    
+    &:nth-child(2) {
+      img {
+        padding: 0 0.5rem;
+      }
+    }
+  }
+}
+
+.course-content {
+  width: 50vw;
+}
+
+.course-project-quantity {
+  font-size: 0.8125rem;
+  color: #7D97AD;
+  padding: 0.5rem 0;
+}
+
+.course-short-summary {
+  font-size: 1.15rem;
+  width: 80%;
+}
+
+.course-summary {
+  font-size: 0.9rem;
+  color: #767676;
+  font-weight: 400;
+  width: 80%;
+}

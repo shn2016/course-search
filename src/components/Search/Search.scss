@@ -1,11 +1,12 @@
 .search {
+  margin: 2rem 0rem;
   padding: 2px 4px;
   align-items: center;
   width: 400px;
-}
 
-.search > form {
-  display: flex;
+  form {
+    display: flex;
+  }
 }
 
 .search-input {
